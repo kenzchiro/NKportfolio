@@ -1,0 +1,18 @@
+{
+  "work": [
+    {
+      "time": "2019",
+      "icon": "fas fa-briefcase",
+      "topic": "Blockchain Developer",
+      "detail": "Internship",
+      "text": ["KASIKORN Business-Technology Group"]
+    },
+    {
+      "time": "2018",
+      "icon": "fas fa-briefcase",
+      "topic": "Full-Stack Developer",
+      "detail": "Wage Scholarship",
+      "text": ["Institude of Field roBOtics (FIBO) at KMUTT"]
+    }
+  ]
+}

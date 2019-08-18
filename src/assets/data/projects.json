@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "time": "2019",
+      "icon": "far fa-calendar",
+      "topic": "Portfolio Online",
+      "detail": "Self Learning",
+      "text": [
+        "Developed my portfolio website with Vue.js"
+      ]
+    },
+    {
+      "time": "2018",
+      "icon": "far fa-calendar",
+      "topic": "Leave System Online",
+      "detail": "Wage Scholarship",
+      "text": [
+        "Developed leave system website with PHP, Java Script, MySQL, and HTML/CSS/Bootstrap"
+      ]
+    },
+    {
+      "time": "2017",
+      "icon": "far fa-calendar",
+      "topic": "War of Dimension",
+      "detail": "National Software Contest : NSC2017",
+      "text": [
+        "A real time statgy game on smartphone develop by Unity3D with C# and Java Script"
+      ]
+    },
+    {
+      "time": "2017",
+      "icon": "far fa-calendar",
+      "topic": "Travalokel",
+      "detail": "Term project in Database Course",
+      "text": [
+        "Airlines booking website for dometic and international destinations with PHP, Java Script, MySQL, and HTML/CSS/Bootstrap"
+      ]
+    },
+    {
+      "time": "2016",
+      "icon": "far fa-calendar",
+      "topic": "What Tony Eat ?",
+      "detail": "Term project in Engineering exporation Course",
+      "text": [
+        "This project an Android application to help user to making a decision for meal develop by Andriod Studio with Java Script and MySQL"
+      ]
+    },
+    {
+      "time": "2016",
+      "icon": "far fa-calendar",
+      "topic": "Treasure Hunt Begin AR",
+      "detail": "National Software Contest : NSC2016",
+      "text": [
+        "Boardgame on smartphone using agumented reality technology develop by Unity3D with C# and Java Script"
+      ]
+    }
+  ]
+}

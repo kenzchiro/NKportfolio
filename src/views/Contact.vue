@@ -23,19 +23,19 @@
 						<footer>
 							<ul class="items">
 								<ul>
-									<h3>Email</h3>
+									<h6>Email</h6>
 									<p>nattawut.eleven@gmail.com</p>
 								</ul>
 								<ul>
-									<h3>Phone</h3>
+									<h6>Phone</h6>
 									<p>+6697-116-6798</p>
 								</ul>
 								<ul>
-									<h3>Address</h3>
+									<h6>Address</h6>
 									<p>365/916 Soi 47, Phutthabucha Road,<br>Bang Mod, Thung Khru, Bangkok 10140</p>
 								</ul>
 								</ul>
-									<h3>Elsewhere</h3>
+									<h4>Elsewhere</h4>
               <ul class="icons">
                 <li><a href="https://twitter.com/nattawut_nk"><v-icon>fab fa-twitter</v-icon></a></li>
                 <li><a href="https://www.facebook.com/KenzChiro"><v-icon>fab fa-facebook</v-icon></a></li>
@@ -90,6 +90,8 @@ margin-bottom: 0.1em;
 .wrapper> section:last-of-type > header:before {
 	height: 100%;
 }
+
+
 .wrapper > section:last-of-type > header:after {
 	background: #43d9b8;
 	border-radius: 0.5rem;
@@ -100,5 +102,19 @@ margin-bottom: 0.1em;
 	position: absolute;
 	width: 0.5rem;
     z-index: 1;
+}
+
+@media screen and (max-width: 1152px) {
+			.wrapper > section:last-of-type > header:after {
+						display: none;
+					}
+}
+ h4, h5, h6 {
+  color: #001a33;
+  margin-top: 0;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-size: 90%;
 }
 </style>

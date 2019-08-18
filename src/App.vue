@@ -38,11 +38,9 @@ import Info from './views/Info'
 import Skills from './views/Skills'
 import Education from './views/Education'
 import Work from './views/Work'
-import Activities from './views/Activities'
+//import Activities from './views/Activities'
 import Contact from './views/Contact'
 import Projects from './views/Projects'
-import Navbar from './components/Navbar'
-import Section from '@/components/Section'
 
 
 export default {
@@ -55,9 +53,8 @@ export default {
     Work,
     Projects,
     Scrollama,
-    Activities,
-    Contact,
-    Navbar
+    //Activities,
+    Contact
       },
   data() {
     return {
@@ -111,10 +108,5 @@ color: antiquewhite
 
 .custom{
 	height: 100%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-size: 200%;
-    font-weight: 400;
 }
 </style>

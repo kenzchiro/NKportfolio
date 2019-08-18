@@ -17,10 +17,15 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f https://github.com/keneleven/me.git master
+git push -f https://github.com/keneleven/keneleven.github.io.git master
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+
+cd ..
+git add -A
+git commit -m 'update code'
+git push -f https://github.com/keneleven/me master
 
 cd -

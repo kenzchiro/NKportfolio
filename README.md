@@ -13,6 +13,8 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
+or
+sh deploy.sh
 ```
 
 ### Run your tests

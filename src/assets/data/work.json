@@ -3,6 +3,13 @@
     {
       "time": "2019",
       "icon": "fas fa-briefcase",
+      "topic": "Back-End Developer",
+      "detail": "Part-time Developer on with Golang",
+      "text": ["Donuts  Bangkok"]
+    },
+    {
+      "time": "2019",
+      "icon": "fas fa-briefcase",
       "topic": "Blockchain Developer",
       "detail": "KBTG Internship Bootcamp 2019",
       "text": ["KASIKORN Business-Technology Group"]

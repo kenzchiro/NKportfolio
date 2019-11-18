@@ -9,7 +9,12 @@
 					<div class="TimelineBox-content">
 						<h6 class="TimelineBox-title">{{event.topic}}</h6>
 								<div class="TimelineBox-detail">
-									<v-icon> {{event.icon}}</v-icon>  {{event.detail}}
+									<v-icon> {{event.icon}}</v-icon>  {{event.detail}} 
+                  <div class="link">
+                              <a :href="event.link">
+                                {{event.name}} 
+                               </a>
+                  </div>
 								</div>
               <p><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
 					</div>
@@ -86,6 +91,11 @@ a {
 a:hover {
   color: #ff9a9a;
   text-decoration: none;
+}
+
+.link{
+  float: right;
+  margin-right: 10px;
 }
 
 

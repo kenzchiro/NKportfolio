@@ -31,9 +31,14 @@
             <v-icon>fab fa-github</v-icon>
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="https://medium.com/@nk.nattawut">
             <v-icon>fab fa-medium-m</v-icon>
+          </a>
+        </li> -->
+        <li>
+          <a href="https://nattawuteleven.wixsite.com/kenzchiro">
+        <i class="fab fa-wix"></i>
           </a>
         </li>
       </ul>

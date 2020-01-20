@@ -5,10 +5,10 @@
       "icon": "far fa-calendar",
       "topic": "DataRoom , Self-Service Analytics Platform",
       "detail": " Senoir Project",
-      "name": "w",
-      "link": "w",
+      "name": "",
+      "link": "",
       "text": [
-        "Platform for help user to analysis data without coding developed by ReactJS , Flask (python famework) and using pyspark for Big data process"
+        "Platform for help user to analysis data without coding developed by ReactJS , Flask (python framework) and using pyspark for Big data process"
       ]
     },
     {

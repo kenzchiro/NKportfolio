@@ -17,8 +17,8 @@
         {"label": "Angular", "value": 25,"desc":"Had learnt"},
         {"label": "Python", "value": 60,"desc":"Use for some project"},
         {"label": "R", "value": 25,"desc":"Had learnt"},
-        {"label": "PHP", "value": 50,"desc":"Use for work"},
-        {"label": "Go", "value": 50,"desc":"Use during internship"},
+        {"label": "PHP", "value": 50,"desc":"Rarely used"},
+        {"label": "Go", "value": 70,"desc":"Use for work"},
         {"label": "C/C#", "value":70,"desc":"Rarely used"},
         {"label": "Swift", "value": 25,"desc":"Had learnt"},
         {"label": "Solidity", "value": 25,"desc":"Had learnt"}

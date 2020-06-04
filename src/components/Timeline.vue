@@ -2,10 +2,10 @@
 	<div class="TimelineBox">
     <div :class="'layer-'+layerClass" v-for="(event,e) in data" :key="e">
 			<div class="TimelineBox-item">
-			  <div class="TimelineBox-info">
+			<div class="TimelineBox-info">
 					<span>{{event.time}}</span>
 				</div>
-				<div class="TimelineBox-marker"></div>
+				<div class="TimelineBox-marker"/>
 					<div class="TimelineBox-content">
 						<h6 class="TimelineBox-title">{{event.topic}}</h6>
 								<div class="TimelineBox-detail">
@@ -19,7 +19,7 @@
               <p><span v-for="(line,l) in event.text" :key="l">{{line}}<br></span></p>
 					</div>
 					<br>
-        </div>
+      </div>
         <div class="TimelineBox-item period">
 				</div>
      </div>

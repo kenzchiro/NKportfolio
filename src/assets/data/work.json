@@ -3,6 +3,13 @@
     {
       "time": "PRESENT",
       "icon": "fas fa-briefcase",
+      "topic": "Data Engineer",
+      "detail": "Contract employee from Progress HR Co., Ltd. working at KBTG",
+      "text": ["KASIKORN Business-Technology Group [KBTG]"]
+    },
+    {
+      "time": "2019-2020",
+      "icon": "fas fa-briefcase",
       "topic": "Back-End Developer",
       "detail": "Part-time Developer with Golang",
       "text": ["Donuts  Bangkok"]
@@ -12,7 +19,7 @@
       "icon": "fas fa-briefcase",
       "topic": "Blockchain Developer",
       "detail": "KBTG Internship Bootcamp 2019",
-      "text": ["KASIKORN Business-Technology Group"]
+      "text": ["KASIKORN Business-Technology Group [KBTG]"]
     },
     {
       "time": "2018",

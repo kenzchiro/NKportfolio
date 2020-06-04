@@ -64,37 +64,37 @@ export default {
   mounted() {
     this.$refs.InfoComponent.$emit('onEnter')
   },
-  methods: {
-    stepEnterHandler ({element, index, direction}) {
-      //console.log('Enter', element,index, direction)
+  // methods: {
+  //   stepEnterHandler ({element, index, direction}) {
+  //     //console.log('Enter', element,index, direction)
 
-      if (direction === 'down') {
-        switch (index) {
-          case 0:
-            break;
-          case 1:
-            this.$refs.InfoComponent.$refs.Timeline.$emit('onEnter')
-            break;
-          case 2:
-            this.$refs.EducationComponent.$refs.Timeline.$emit('onEnter')
-            break;
-          case 3:
-            this.$refs.WorkComponent.$refs.Timeline.$emit('onEnter')
-            break;
-          case 4:
-            this.$refs.ProjectsComponent.$refs.Timeline.$emit('onEnter')
-            break;
-        }
-      }else {
-        switch (index) {
-          case 0:
-            this.$refs.NavbarComponent.$emit('onLeave')
-            break;
-        }
-      }
+  //     if (direction === 'down') {
+  //       switch (index) {
+  //         case 0:
+  //           break;
+  //         case 1:
+  //           this.$refs.InfoComponent.$refs.Timeline.$emit('onEnter')
+  //           break;
+  //         case 2:
+  //           this.$refs.EducationComponent.$refs.Timeline.$emit('onEnter')
+  //           break;
+  //         case 3:
+  //           this.$refs.WorkComponent.$refs.Timeline.$emit('onEnter')
+  //           break;
+  //         case 4:
+  //           this.$refs.ProjectsComponent.$refs.Timeline.$emit('onEnter')
+  //           break;
+  //       }
+  //     }else {
+  //       switch (index) {
+  //         case 0:
+  //           this.$refs.NavbarComponent.$emit('onLeave')
+  //           break;
+  //       }
+  //     }
 
-    }
-  }
+  //   }
+  // }
 }
 
 </script>

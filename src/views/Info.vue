@@ -23,7 +23,6 @@
 <script>
 import anime from 'animejs'
 import { info } from '@/assets/data/me.json'
-let timeline
 export default {
   name: 'Info',
   data() {

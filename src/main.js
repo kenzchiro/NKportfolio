@@ -7,7 +7,9 @@ import '@fortawesome/fontawesome-free/css/all.css' // Ensure you are using css-l
 import VueBlu from 'vue-blu'
 import VueAnime from 'vue-animejs';
 import Vuetify from 'vuetify'
-
+import { KinesisContainer, KinesisElement } from 'vue-kinesis'
+Vue.component('kinesis-container', KinesisContainer)
+Vue.component('kinesis-element', KinesisElement)
 Vue.use(VueAnime)
 Vue.use(Vuetify, {
  iconfont: 'fa'

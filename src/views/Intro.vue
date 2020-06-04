@@ -44,14 +44,15 @@
       </ul>
     </header>
     <div class="content spacing">
-          	<span class="image fill" data-position="center"><img src="../assets/intro_profile.jpeg" alt="" /></span>
+      <span class="image fill" data-position="center">
+      <img src="../assets/intro_profile.jpeg" alt="" /></span>
     </div>
   </section>
 </template>
 
 <script>
 import { info } from '@/assets/data/me.json'
-let timeline
+// import anime from 'animejs'
 export default {
   name: 'Intro',
   data() {
@@ -60,27 +61,22 @@ export default {
     }
   },
   mounted() {
-    this.$once('onEnter', () => {
-
-    anime.timeline({
-        loop: false,
-        easing: 'easeOutQuad',
+    const targets = '.imag';
+    this
+      .$anime
+      .timeline()
+      .add({
+        targets,
+        translateY: -100,
       })
       .add({
-        targets: '.stage',
-        direction: 'normal',
-        opacity: [0,1],
-        duration: 1,
+        targets,
+        translateY: 0,
+        easing: 'easeInQuart'
       })
-      .add({
-        targets: '.item',
-        direction: 'normal',
-        translateY: ['10vw',0],
-        opacity: [0,1],
-        duration: 1500,
-        delay: (el,i) => i*100,
-      })
-    })
+      
+      ;
+      /* ... etc ... */
   },
 }
 </script>

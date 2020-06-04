@@ -3,10 +3,10 @@
 			<header>
 				<h2>EDUCATION</h2>
 			</header>
-			  <div class="content">
-          <div class="spacing">
-            <timeline  title="EDUCATION" :data="education" ref="Timeline"></timeline>
-          </div>
+			<div class="content">
+        <div class="spacing">
+          <timeline  title="EDUCATION" :data="education" ref="Timeline"></timeline>
+        </div>
 			</div>
 	</section>
 

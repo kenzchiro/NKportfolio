@@ -86,7 +86,7 @@ export default {
 
 label {
   font-size:16px;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 .desc{
   float:right;
@@ -94,7 +94,7 @@ label {
   color:slategrey;
 }
 .space{
-padding-top: 28px;
+padding-top: 2em;
 }
 .spacing{
 padding-bottom: 2rem;

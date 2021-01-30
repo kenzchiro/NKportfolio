@@ -12,11 +12,6 @@
 
       <ul class="icons">
         <li>
-          <a href="https://twitter.com/nattawut_nk">
-            <v-icon>fab fa-twitter</v-icon>
-          </a>
-        </li>
-        <li>
           <a href="https://www.facebook.com/KenzChiro">
             <v-icon>fab fa-facebook</v-icon>
           </a>
@@ -49,9 +44,9 @@
       </ul>
     </header>
     <div class="content spacing">
-      <span class="image fill" data-position="center">
-        <img src="../assets/intro_profile.jpeg" alt />
-      </span>
+      <span class="image circular--portrait" data-position="center">
+        <img src="../assets/intro_profile.jpeg" />
+      </span> 
     </div>
   </section>
 </template>
@@ -59,9 +54,11 @@
 <script>
 import { info } from "@/assets/data/me.json";
 // import anime from 'animejs'
+
 export default {
   name: "Intro",
   data() {
+    
     return {
       info
     };

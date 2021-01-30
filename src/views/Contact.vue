@@ -41,11 +41,6 @@
       <h4>Elsewhere</h4>
       <ul class="icons">
         <li>
-          <a href="https://twitter.com/nattawut_nk">
-            <v-icon>fab fa-twitter</v-icon>
-          </a>
-        </li>
-        <li>
           <a href="https://www.facebook.com/KenzChiro">
             <v-icon>fab fa-facebook</v-icon>
           </a>
@@ -63,11 +58,6 @@
         <li>
           <a href="https://github.com/kenzchiro">
             <v-icon>fab fa-github</v-icon>
-          </a>
-        </li>
-        <li>
-          <a href="https://medium.com/@nk.nattawut">
-            <v-icon>fab fa-medium-m</v-icon>
           </a>
         </li>
       </ul>

@@ -20,10 +20,15 @@
         <div class="wrapper">
           <Projects class="step" id="projects" ref="ProjectsComponent"/>
         </div>
-        </Scrollama>
+        <div class="wrapper">
+          <Certifications class="step" id="certifications" ref="CertificationsComponent"/>
+        </div>
         <div class="wrapper custom">
+          
           <Contact ref="ContactComponent"/>
         </div>
+                </Scrollama>
+
         <div class="copyright">&copy; KenzChiro. All rights reserved. Credit Design:
           <a href="https://html5up.net">HTML5 UP</a>.</div>
         </div>
@@ -38,7 +43,7 @@ import Info from './views/Info'
 import Skills from './views/Skills'
 import Education from './views/Education'
 import Work from './views/Work'
-//import Activities from './views/Activities'
+import Certifications from './views/Certifications'
 import Contact from './views/Contact'
 import Projects from './views/Projects'
 
@@ -52,8 +57,8 @@ export default {
     Education,
     Work,
     Projects,
+    Certifications,
     Scrollama,
-    //Activities,
     Contact
       },
   data() {

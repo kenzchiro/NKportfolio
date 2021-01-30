@@ -6,7 +6,7 @@
     { "icon": "fas fa-mobile-alt", "text": "+6697-116-6798" },
     {
       "icon": "fas fa-map-marked-alt",
-      "text": "365/916 Soi 47, Phutthabucha Road, Bang Mod, Thung Khru, Bangkok 10140"
+      "text": "7/678 Poppular Condo C9, Pak Kret district, Nonthaburi 11120, Thailand"
     }
   ],
   "skills": [
@@ -22,13 +22,15 @@
         { "label": "VueJS", "value": 50, "desc": "Had learnt" },
         { "label": "ReactJS", "value": 50, "desc": "Use during internship" },
         { "label": "Angular", "value": 25, "desc": "Had learnt" },
-        { "label": "Python", "value": 60, "desc": "Use for some project" },
-        { "label": "R", "value": 25, "desc": "Had learnt" },
+        { "label": "Python", "value": 70, "desc": "Use for some project" },
+        { "label": "Java", "value": 50, "desc": "Had learnt" },
         { "label": "PHP", "value": 50, "desc": "Rarely used" },
-        { "label": "Go", "value": 70, "desc": "Use for work" },
-        { "label": "C/C#", "value": 70, "desc": "Rarely used" },
-        { "label": "Swift", "value": 25, "desc": "Had learnt" },
-        { "label": "Solidity", "value": 25, "desc": "Had learnt" }
+        { "label": "R", "value": 25, "desc": "Had learnt" },
+        { "label": "Go", "value": 60, "desc": "Use for work" },
+        { "label": "ETL", "value": 75, "desc": "Use for work" },
+        { "label": "Shell Script", "value": 75, "desc": "Use for work" },
+        { "label": "REST API", "value": 75, "desc": "Use for work" },
+        { "label": "SQL", "value": 75, "desc": "Use for work" }
       ]
     },
     {
@@ -36,19 +38,21 @@
       "skill": [
         { "label": "Adobe illustrator", "value": 70, "desc": "Often used" },
         { "label": "Adobe XD", "value": 50, "desc": "Often used" },
-        { "label": "Adobe Photoshop", "value": 50, "desc": "Rarely used" },
-        { "label": "Blender3D", "value": 50, "desc": "Rarely used" }
+        { "label": "Adobe Photoshop", "value": 50, "desc": "Rarely used" }
       ]
     },
     {
-      "name": "Other",
+      "name": "Tools",
       "skill": [
         {
           "label": "Stellar Blockchain",
           "value": 70,
           "desc": "Use during internship"
         },
-        { "label": "Unity3D", "value": 70, "desc": "Use for game project" }
+        { "label": "Unity3D", "value": 70, "desc": "Use for game project" },
+        { "label": "Git", "value": 70, "desc": "Use for work" },
+        { "label": "Docker", "value": 70, "desc": "Use for some project" },
+        { "label": "Datastage", "value": 70, "desc": "Use for work" }
       ]
     },
     {

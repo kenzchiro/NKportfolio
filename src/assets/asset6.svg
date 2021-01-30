@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 639.35 457.51">
+    <defs>
+        <style>
+            .cls-1 {
+                isolation: isolate;
+            }
+
+            .cls-2 {
+                mix-blend-mode: overlay;
+            }
+
+            .cls-3 {
+                fill: #49fcd4;
+            }
+
+            .cls-4 {
+                fill: #e56399;
+            }
+
+            .cls-5 {
+                fill: #e56399;
+            }
+
+            }
+        </style>
+    </defs>
+    <title>Asset4</title>
+    <g class="cls-1">
+        <g id="Layer_2" data-name="Layer 2">
+            <g id="OBJECTS">
+                <g id="_6" data-name="6">
+                    <path class="cls-5"
+                        d="M558.21,91.89a13.51,13.51,0,1,1,13.5-13.51A13.52,13.52,0,0,1,558.21,91.89Zm0-23a9.53,9.53,0,1,0,9.52,9.52A9.54,9.54,0,0,0,558.21,68.86Z" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

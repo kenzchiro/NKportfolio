@@ -1143,10 +1143,10 @@ input[type="radio"] + label:before {
 }
 .circular--portrait {
   display: block;
-  margin: 5vw auto;
+  margin: 12em auto;
   position: relative;
-  width: 25em;
-  height: 25em;
+  width: 20vh;
+  height: 20vh;
   overflow: hidden;
   border-radius: 50%;
 }

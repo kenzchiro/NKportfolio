@@ -1143,7 +1143,7 @@ input[type="radio"] + label:before {
 }
 .circular--portrait {
   display: block;
-  margin: 12em auto;
+  margin: 20vh auto;
   position: relative;
   width: 20vh;
   height: 20vh;

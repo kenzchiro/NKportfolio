@@ -33,8 +33,8 @@
         <ul>
           <h6>Address</h6>
           <p>
-            365/916 Soi 47, Phutthabucha Road,
-            <br />Bang Mod, Thung Khru, Bangkok 10140
+            7/678 Poppular Condo C9, Pak Kret district,,
+            <br /> Nonthaburi 11120, Thailand
           </p>
         </ul>
       </ul>

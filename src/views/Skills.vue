@@ -84,7 +84,7 @@ export default {
 
 label {
   font-size:16px;
-  height: 3em;
+  height: 3.5em;
   padding-top: 1em;
   margin-bottom: 16px;
 

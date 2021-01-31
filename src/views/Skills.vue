@@ -24,7 +24,6 @@
                 </progress-bar>
             </div>
           </div>
-          <div class="space"></div>
           <label>{{skills[2].name}}</label>
           <div class="columns is-multiline">
             <div v-for="skill in skills[2].skill" :key="skill.label" :class="'column is-full custom is-gap'">
@@ -33,8 +32,7 @@
                 </progress-bar>
             </div>
           </div>
-          <div class="space"></div>
-          <label>{{skills[3].name}}</label>
+            <label>{{skills[3].name}}</label>
             <div class="columns is-multiline">
             <div v-for="skill in skills[3].skill" :key="skill.label" :class="'column is-full custom is-gap'">
               <span>{{skill.label}}</span><span class="desc">{{skill.desc}}</span>
@@ -86,7 +84,10 @@ export default {
 
 label {
   font-size:16px;
-  margin-bottom: 1rem;
+  height: 3em;
+  padding-top: 1em;
+  margin-bottom: 16px;
+
 }
 .desc{
   float:right;
@@ -94,7 +95,7 @@ label {
   color:slategrey;
 }
 .space{
-padding-top: 2em;
+padding-top: 2rem;
 }
 .spacing{
 padding-bottom: 2rem;

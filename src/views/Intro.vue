@@ -39,24 +39,21 @@
       </ul>
     </header>
     <div class="content spacing">
-      <span class="layer"  data-position="center">
-      <img :src="asset0" class="layer" data-speed="2">
-      <span class="layer"  data-position="center" >
-        <img :src="asset1" class="layer" >
-      </span> 
-      <img :src="asset2" class="layer" data-speed="3">
-      <img :src="asset3" class="layer" data-speed="-6">
-      <img :src="asset4" class="layer" data-speed="4">
-      <img :src="asset5" class="layer" data-speed="-2.5">
-      <span class="image circular--portrait" data-position="center"  >
-        <img src="../assets/intro_profile.jpeg" />
-      </span> 
-      <img :src="asset6" class="layer" data-speed="5">
-      <img :src="asset7" class="layer" data-speed="-5">
-      <img :src="asset8" class="layer" data-speed="-1.5">
-      <img :src="asset9" class="layer" data-speed="-1">
-      <img :src="asset10" class="layer" data-speed="1">
-    </span> 
+      <span class="layer" data-position="center">
+        <img :src="asset0" class="layer" data-speed="2" />
+        <img :src="assetbk" class="layer"/>
+        <img :src="asset1" class="layer"/>
+        <img :src="asset2" class="layer" data-speed="3" />
+        <img :src="asset3" class="layer" data-speed="-6" />
+        <img :src="asset4" class="layer" data-speed="4" />
+        <img :src="asset5" class="layer" data-speed="-2.5" />
+        <img :src="asset6" class="layer" data-speed="5" />
+        <img :src="asset7" class="layer" data-speed="-5" />
+        <img :src="asset8" class="layer" data-speed="-1.5" />
+        <img :src="asset9" class="layer" data-speed="-1" />
+        <img :src="asset10" class="layer" data-speed="1" />
+
+      </span>
     </div>
   </section>
 </template>
@@ -64,6 +61,7 @@
 <script>
 import { info } from "@/assets/data/me.json";
 // import anime from 'animejs';
+import assetbk from "../assets/assetbk.svg";
 import asset0 from "../assets/asset0.svg";
 import asset1 from "../assets/asset1.svg";
 import asset2 from "../assets/asset2.svg";
@@ -81,6 +79,7 @@ export default {
   data() {
     return {
       info,
+      assetbk,
       asset0,
       asset1,
       asset2,
@@ -100,28 +99,28 @@ export default {
       .timeline()
       .add({
         targets,
-        translateY: -100
+        translateY: -100,
       })
       .add({
         targets,
         translateY: 0,
-        easing: "easeInQuart"
+        easing: "easeInQuart",
       });
     /* ... etc ... */
-  }
+  },
 };
-document.addEventListener('mousemove', e => parallax(e));
+document.addEventListener("mousemove", (e) => parallax(e));
 
 const parallax = (e) => {
-	document.querySelectorAll('.layer').forEach(layer => {
-		const speed = layer.getAttribute('data-speed');
+  document.querySelectorAll(".layer").forEach((layer) => {
+    const speed = layer.getAttribute("data-speed");
 
-		const x = (window.innerWidth - e.pageX * speed) / 100;
-		const y = (window.innerHeight - e.pageY * speed) / 100;
+    const x = (window.innerWidth - e.pageX * speed) / 100;
+    const y = (window.innerHeight - e.pageY * speed) / 100;
 
-		layer.style.transform = `translate(${x}px, ${y}px)`;
-	});
-}
+    layer.style.transform = `translate(${x}px, ${y}px)`;
+  });
+};
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
@@ -140,43 +139,41 @@ html {
 }
 
 body {
-	background-color: #111111;
-	font-family: 'Poppins', sans-serif;
+  background-color: #111111;
+  font-family: "Poppins", sans-serif;
 }
 
-
-
 section img {
-	height: 90vh;
-	left: 0;
-	object-fit: contain;
-	position: absolute;
-	top: 0;
-	width: 100%;
+  height: 90vh;
+  left: 0;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 section h2 {
-	color: #ffffff;
-	font-size: 12rem;
-	position: relative;
+  color: #ffffff;
+  font-size: 12rem;
+  position: relative;
 }
 
 @media screen and (max-width: 990px) {
-	section h2 {
-		font-size: 9rem;
-	}
+  section h2 {
+    font-size: 9rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-	section h2 {
-		font-size: 6rem;
-	}
+  section h2 {
+    font-size: 6rem;
+  }
 }
 
 @media screen and (max-width: 550px) {
-	section h2 {
-		font-size: 4rem;
-	}
+  section h2 {
+    font-size: 4rem;
+  }
 }
 p {
   display: block;

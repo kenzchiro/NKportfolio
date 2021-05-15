@@ -27,12 +27,12 @@
           
           <Contact ref="ContactComponent"/>
         </div>
-                </Scrollama>
+        </Scrollama>
 
         <div class="copyright">&copy; KenzChiro. All rights reserved. Credit Design:
           <a href="https://html5up.net">HTML5 UP</a>.</div>
         </div>
-      </div>
+  </div>
 </template>
 
 <script>

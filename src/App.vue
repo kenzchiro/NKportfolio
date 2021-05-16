@@ -5,6 +5,9 @@
         <div class="wrapper">
           <Intro ref="IntroComponent"/>
         </div>
+        <!-- <div class="wrapper">
+          <Info class="step" id = "info" ref="InfoComponent"/>
+        </div> -->
         <div class="wrapper">
           <Skills class="step" id = "skills" ref="SkillsComponent"/>
         </div>

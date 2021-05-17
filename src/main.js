@@ -8,6 +8,8 @@ import VueBlu from 'vue-blu'
 import VueAnime from 'vue-animejs';
 import Vuetify from 'vuetify'
 import { KinesisContainer, KinesisElement } from 'vue-kinesis'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 Vue.component('kinesis-container', KinesisContainer)
 Vue.component('kinesis-element', KinesisElement)
 Vue.use(VueAnime)
@@ -23,5 +25,8 @@ window.onbeforeunload = function () {
   window.scrollTo(0, 0)
 }
 new Vue({
+  created () {
+    AOS.init()
+  },
   render: h => h(App),
 }).$mount('#app')

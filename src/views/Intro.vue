@@ -1,10 +1,11 @@
 <template>
   <section class="intro">
     <header>
-      <h1>
-        Ken
-        <br />Nattawut
-      </h1>
+       <div data-aos="fade-up">
+        <h1>
+          Ken
+          <br />Nattawut
+        </h1>
       <p>
         A Junior Computer Engineering Student
         <br />in love with integrating code and design
@@ -37,6 +38,7 @@
           </a>
         </li>
       </ul>
+      </div>
     </header>
     <div class="content spacing">
       <span class="layer" data-position="center">
@@ -55,6 +57,7 @@
 
       </span>
     </div>
+    
   </section>
 </template>
 

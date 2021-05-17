@@ -5,9 +5,6 @@
         <div class="wrapper">
           <Intro ref="IntroComponent"/>
         </div>
-        <!-- <div class="wrapper">
-          <Info class="step" id = "info" ref="InfoComponent"/>
-        </div> -->
         <div class="wrapper">
           <Skills class="step" id = "skills" ref="SkillsComponent"/>
         </div>
@@ -39,7 +36,6 @@
 import 'intersection-observer' // for cross-browser support
 import Scrollama from 'vue-scrollama'
 import Intro from './views/Intro'
-import Info from './views/Info'
 import Skills from './views/Skills'
 import Education from './views/Education'
 import Work from './views/Work'
@@ -52,7 +48,6 @@ export default {
   name: "App",
   components: {
     Intro,
-    Info,
     Skills,
     Education,
     Work,

@@ -20,10 +20,9 @@
         <div class="wrapper">
           <Certifications class="step" id="certifications" ref="CertificationsComponent"/>
         </div>
-        <div class="wrapper custom">
-          
-          <Contact ref="ContactComponent"/>
+        <div class="wrapper custom">          
         </div>
+        
         </Scrollama>
 
         <div class="copyright">&copy; KenzChiro. All rights reserved. Credit Design:
@@ -40,7 +39,6 @@ import Skills from './views/Skills'
 import Education from './views/Education'
 import Work from './views/Work'
 import Certifications from './views/Certifications'
-import Contact from './views/Contact'
 import Projects from './views/Projects'
 
 
@@ -54,47 +52,7 @@ export default {
     Projects,
     Certifications,
     Scrollama,
-    Contact
-      },
-  data() {
-    return {
-      activeStage: 0,
-    }
-  },
-  mounted() {
-    this.$refs.InfoComponent.$emit('onEnter')
-  },
-  // methods: {
-  //   stepEnterHandler ({element, index, direction}) {
-  //     //console.log('Enter', element,index, direction)
-
-  //     if (direction === 'down') {
-  //       switch (index) {
-  //         case 0:
-  //           break;
-  //         case 1:
-  //           this.$refs.InfoComponent.$refs.Timeline.$emit('onEnter')
-  //           break;
-  //         case 2:
-  //           this.$refs.EducationComponent.$refs.Timeline.$emit('onEnter')
-  //           break;
-  //         case 3:
-  //           this.$refs.WorkComponent.$refs.Timeline.$emit('onEnter')
-  //           break;
-  //         case 4:
-  //           this.$refs.ProjectsComponent.$refs.Timeline.$emit('onEnter')
-  //           break;
-  //       }
-  //     }else {
-  //       switch (index) {
-  //         case 0:
-  //           this.$refs.NavbarComponent.$emit('onLeave')
-  //           break;
-  //       }
-  //     }
-
-  //   }
-  // }
+      }
 }
 
 </script>

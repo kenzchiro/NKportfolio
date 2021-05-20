@@ -2,7 +2,7 @@
   <!-- Section -->
   <section>
     <header>
-      <h2>Contact</h2>
+      <div data-aos="fade-right"><h2>Contact</h2></div>
     </header>
     <div class="content">
       <form>

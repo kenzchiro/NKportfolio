@@ -1,7 +1,7 @@
 <template>
   <section>
 			<header>
-				<h2>EDUCATION</h2>
+				<div data-aos="fade-right"><h2>EDUCATION</h2></div>
 			</header>
 			<div class="content">
         <div class="spacing">

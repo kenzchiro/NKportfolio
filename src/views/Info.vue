@@ -1,7 +1,7 @@
 <template>
   <section>
 			<header>
-				<h2>PERSONAL<br>INFORMATION</h2>
+				<div data-aos="fade-right"><h2>PERSONAL<br>INFORMATION</h2></div>
 			</header>
 			<div class="content">
           <div class="columns spacing_top">
@@ -57,7 +57,7 @@ export default {
 </script>
 
 <style scope>
-h2{
+h1{
   font-size:1.8rem;
   padding-top:10px;
   vertical-align: middle;

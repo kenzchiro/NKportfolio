@@ -250,7 +250,7 @@ textarea {
   color: #000000;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  --font-weight: 800;
   line-height: 1.5;
 }
 
@@ -270,7 +270,7 @@ a:hover {
 
 strong,
 b {
-  font-weight: 600;
+  font-weight: 800;
   color: #000000;
 }
 
@@ -297,9 +297,9 @@ h5,
 h6 {
   color: #001a33;
   font-family: "Raleway", Helvetica, sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  line-height: 1.75;
+  font-weight: 1200;
+  letter-spacing: 0.05em;
+  line-height: 1;
   margin: 0 0 0 0;
   text-transform: uppercase;
 }
@@ -1623,6 +1623,7 @@ ul.feature-icons li:nth-child(2) {
 }
 
 .wrapper section > header h2 {
+  font-size: 2rem;
   margin: 0 0 5rem 0;
 }
 

@@ -40,7 +40,7 @@
       </ul>
       </div>
     </header>
-    <div class="content spacing">
+    <div data-aos="zoom-in" class="content spacing">
       <span class="layer" data-position="center">
         <img :src="asset0" class="layer" data-speed="2" />
         <img :src="assetbk" class="layer"/>
